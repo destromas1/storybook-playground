@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "private": false,
   "main": "dist/index.js",
+  "scripts": {
+    "clean": "rm -rf ./dist",
+    "build": "npm run clean && NODE_ENV=production `npm bin`/babel ./src --out-dir ./dist",
+    "storybook": "start-storybook -p 9001 -c .storybook",
+    "build-storybook": "build-storybook"
+  },
   "dependencies": {
     "react": "^16.4.1",
     "react-dom": "^16.4.1"
