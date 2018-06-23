@@ -1,0 +1,8 @@
+{
+    "presets": ["env", "react", "stage-1"],
+    "plugins": [
+      "transform-decorators-legacy",
+      "transform-class-properties",
+      "babel-root-slash-import"
+    ]
+  }
