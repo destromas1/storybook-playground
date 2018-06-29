@@ -2,7 +2,9 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import { Button, Welcome } from '@storybook/react/demo';
-import { AppMine } from "../src/index";
+import styled from "styled-components";
+import AppMine from "../src/components/AppMine";
+import AppMineStyledCom from "../src/components/AppMineStyledCom";
 
 
 storiesOf('Button', module)
@@ -15,4 +17,8 @@ storiesOf('Button', module)
 
 storiesOf('AppMine', module).add('default', () => (
     <AppMine />
+));
+
+storiesOf('AppMineStyledCom', module).add('default', () => (
+    <AppMineStyledCom />
 ));
