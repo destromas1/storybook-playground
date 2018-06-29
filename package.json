@@ -1,6 +1,6 @@
 {
   "name": "storybook-playground-new",
-  "version": "1.1.1",
+  "version": "1.2.2",
   "private": false,
   "main": "dist/index.js",
   "scripts": {
@@ -11,7 +11,8 @@
   },
   "dependencies": {
     "react": "^16.4.1",
-    "react-dom": "^16.4.1"
+    "react-dom": "^16.4.1",
+    "styled-components": "^3.3.3"
   },
   "peerDependencies": {
     "react": "^16.x"
@@ -25,6 +26,8 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-1": "^6.24.1",
-    "babel-root-slash-import": "^1.1.0"
+    "babel-root-slash-import": "^1.1.0",
+    "css-loader": "^0.28.11",
+    "style-loader": "^0.21.0"
   }
 }
