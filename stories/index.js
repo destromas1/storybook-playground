@@ -5,6 +5,7 @@ import { Button, Welcome } from '@storybook/react/demo';
 import styled from "styled-components";
 import AppMine from "../src/components/AppMine";
 import AppMineStyledCom from "../src/components/AppMineStyledCom";
+import AppMineStyledCss from "../src/components/AppMineStyledCss";
 
 
 storiesOf('Button', module)
@@ -21,4 +22,8 @@ storiesOf('AppMine', module).add('default', () => (
 
 storiesOf('AppMineStyledCom', module).add('default', () => (
     <AppMineStyledCom />
+));
+
+storiesOf('AppMineStyledCss', module).add('default', () => (
+    <AppMineStyledCss />
 ));
