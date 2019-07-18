@@ -6,6 +6,7 @@ import styled from "styled-components";
 import AppMine from "../src/components/AppMine";
 import AppMineStyledCom from "../src/components/AppMineStyledCom";
 import AppMineStyledCss from "../src/components/AppMineStyledCss";
+import AppMineCssMod from "../src/components/AppMineCssMod";
 
 
 storiesOf('Button', module)
@@ -26,4 +27,8 @@ storiesOf('AppMineStyledCom', module).add('default', () => (
 
 storiesOf('AppMineStyledCss', module).add('default', () => (
     <AppMineStyledCss />
+));
+
+storiesOf('AppMineCssMod', module).add('default', () => (
+    <AppMineCssMod />
 ));
