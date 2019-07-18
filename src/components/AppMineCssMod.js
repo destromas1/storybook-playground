@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import styles from "./stylem.css";
+import styles from "./style.module.css";
 
 class AppMineCssMod extends Component {
   render() {
