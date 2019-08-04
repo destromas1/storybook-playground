@@ -7,6 +7,7 @@ import AppMine from "../src/components/AppMine";
 import AppMineStyledCom from "../src/components/AppMineStyledCom";
 import AppMineStyledCss from "../src/components/AppMineStyledCss";
 import AppMineCssMod from "../src/components/AppMineCssMod";
+import StyledSpinner from '../src/components/Spinner';
 
 
 storiesOf('Button', module)
@@ -31,4 +32,8 @@ storiesOf('AppMineStyledCss', module).add('default', () => (
 
 storiesOf('AppMineCssMod', module).add('default', () => (
     <AppMineCssMod />
+));
+
+storiesOf('StyledSpinner', module).add('default', () => (
+    <StyledSpinner />
 ));
