@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import styled from "styled-components";
 
 const StyledSpinner = styled.div`
-  border: 16px solid #f3f3f3;
+  border: 16px solid ${props => props.color || "red"};
   border-radius: 50%;
   border-top: 16px solid #3498db;
   width: 120px;
@@ -19,7 +19,11 @@ const StyledSpinner = styled.div`
 class Spinner extends Component {
   render() {
     return (
-      <StyledSpinner />
+      <Fragment>
+        <StyledSpinner color="#f3f3f3" />
+        <hr />
+        <StyledSpinner />
+      </Fragment>
     );
   }
 }
